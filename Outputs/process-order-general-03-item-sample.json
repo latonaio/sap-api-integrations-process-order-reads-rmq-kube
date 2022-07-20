@@ -1,0 +1,34 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-process-order-reads-rmq-kube/SAP_API_Caller/caller.go#L67",
+	"function": "sap-api-integrations-process-order-reads-rmq-kube/SAP_API_Caller.(*SAPAPICaller).General",
+	"level": "INFO",
+	"message": [
+		{
+			"ManufacturingOrder": "1003463",
+			"ManufacturingOrderItem": "1",
+			"ManufacturingOrderCategory": "40",
+			"ManufacturingOrderType": "YBM2",
+			"IsCompletelyDelivered": false,
+			"Material": "FG29",
+			"ProductionPlant": "1710",
+			"Plant": "1710",
+			"MRPArea": "1710",
+			"QuantityDistributionKey": "",
+			"MaterialGoodsReceiptDuration": "0",
+			"StorageLocation": "171A",
+			"Batch": "",
+			"InventoryUsabilityCode": "",
+			"GoodsRecipientName": "",
+			"UnloadingPointName": "",
+			"StockSegment": "",
+			"MfgOrderItemPlndDeliveryDate": "2017-08-31T09:00:00+09:00",
+			"MfgOrderItemActualDeliveryDate": "",
+			"ProductionUnit": "BT",
+			"MfgOrderItemPlannedTotalQty": "969",
+			"MfgOrderItemPlannedScrapQty": "0",
+			"MfgOrderItemGoodsReceiptQty": "0",
+			"MfgOrderItemActualDeviationQty": "0"
+		}
+	],
+	"time": "2022-01-28T16:17:27+09:00"
+}
