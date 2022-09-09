@@ -218,7 +218,7 @@ type SDC struct {
 			OpTotalConfirmedYieldQty       string `json:"OpTotalConfirmedYieldQty"`
 			LastChangeDateTime             string `json:"LastChangeDateTime"`
 		} `json:"Operation"`
-		ProductionOrderItem struct {
+		ProcessOrderItem struct {
 			ManufacturingOrderItem         string `json:"ManufacturingOrderItem"`
 			ManufacturingOrderCategory     string `json:"ManufacturingOrderCategory"`
 			ManufacturingOrderType         string `json:"ManufacturingOrderType"`
@@ -241,7 +241,7 @@ type SDC struct {
 			MfgOrderItemPlannedScrapQty    string `json:"MfgOrderItemPlannedScrapQty"`
 			MfgOrderItemGoodsReceiptQty    string `json:"MfgOrderItemGoodsReceiptQty"`
 			MfgOrderItemActualDeviationQty string `json:"MfgOrderItemActualDeviationQty"`
-		} `json:"ProductionOrderItem"`
+		} `json:"ProcessOrderItem"`
 	} `json:"ProcessOrder"`
 	APISchema      string   `json:"api_schema"`
 	Accepter       []string `json:"accepter"`

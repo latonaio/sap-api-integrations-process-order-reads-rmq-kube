@@ -164,7 +164,7 @@
 			"OpTotalConfirmedYieldQty": "",
 			"LastChangeDateTime": ""
 		},
-		"ProductionOrderItem": {
+		"ProcessOrderItem": {
 			"ManufacturingOrderItem": "",
 			"ManufacturingOrderCategory": "",
 			"ManufacturingOrderType": "",
